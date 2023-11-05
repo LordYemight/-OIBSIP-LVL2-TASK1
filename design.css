@@ -1,0 +1,69 @@
+/* Style the body */
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightgrey;
+  }
+  
+  /* Style for Header */
+  .basi {
+    text-align: center;
+  }
+  
+  /* Style the container div */
+  .container {
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    background: white;
+    box-shadow: 0 0 20px bisque;
+  }
+  
+  /* Style the display input */
+  .display {
+    height: 80px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: black;
+    pointer-events: none;
+    border: 1px solid grey;
+    margin-top: -20px;
+  }
+  
+  /* Style for operators */
+  #opt,
+  #opt1,
+  #opt2,
+  #opt3,
+  #opt4,
+  #opt5,
+  #opt6,
+  #opt7 {
+    color: deepskyblue;
+  }
+  
+  /* Style the class = "buttons" */
+  .butns {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  /* Style the buttons */
+  button {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: bisque;
+  }
+  
